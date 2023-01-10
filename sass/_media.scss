@@ -1,0 +1,104 @@
+@media (max-width: 448px) {
+   .form {
+      &__regist {
+         font-size: 9px;
+      }
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 270px;
+      }
+   }
+}
+@media (max-width: 420px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 250px;
+      }
+   }
+}
+@media (max-width: 400px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 230px;
+      }
+   }
+}
+@media (max-width: 380px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 210px;
+      }
+   }
+}
+@media (max-width: 360px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 190px;
+      }
+   }
+}
+@media (max-width: 340px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 170px;
+      }
+   }
+}
+@media (max-width: 320px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 150px;
+      }
+      &__regist {
+         font-size: 8px;
+      }
+   }
+}
+@media (max-width: 300px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 130px;
+      }
+   }
+}
+@media (max-width: 280px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 110px;
+      }
+      &__regist {
+         font-size: 7px;
+      }
+   }
+}
+@media (max-width: 260px) {
+   .form {
+      &__forgot {
+         position: absolute;
+         top: 75px;
+         left: 90px;
+      }
+      &__regist {
+         font-size: 6px;
+      }
+   }
+}
+
+
