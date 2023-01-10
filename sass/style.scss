@@ -1,6 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
 }
-.
+body {
+   background-color: #1f1f1f;
+}
+.container {
+   max-width: 450px;
+   margin: 0 auto;
+}
+.text {
+   img {
+      transform: rotateY(180deg);
+   }
+}
+.form {
+   &__content {
+      background-color: #252525;
+      border-radius: 8px;
+   }
+   &__title {
+      color: white;
+      font-size: 28px;
+      padding: 35px 30px 25px 30px;
+   }
+   &__box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+   }
+   &__input {
+      width: 390px;
+      height: 40px;
+      border-radius: 6px;
+      border: solid 1px #383838;
+      outline: 0;
+      background-color: #262626;
+   }
+   &__input:nth-child(2) {
+      margin-top: 20px;
+   }
+   &__button {
+      width: 390px;
+      height: 37px;
+      border-radius: 5px;
+      border: 0;
+      background-color: #343434;
+      margin-top: 20px;
+      color: #888;
+   }
+   .form__input[type="text"] {
+      padding-left: 20px;
+   }
+   .form__input[type="password"] {
+      padding-left: 20px;
+   }
+   &__forgot {
+      position: absolute;
+      top: 75px;
+      left: 330px;
+      font-size: x-small;
+      text-decoration: none;
+      color: #888;
+   }
+   &__a {
+   }
+   &__img {
+      width: 45px;
+      height: 25px;
+   }
+   &__regist {
+   }
+   &__p {
+   }
+   &__link {
+   }
+}
