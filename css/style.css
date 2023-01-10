@@ -63,6 +63,11 @@ body {
   background-color: #343434;
   margin-top: 20px;
   color: #888;
+  transition: all 300ms;
+}
+.form__button_back:hover {
+  background-color: #676767;
+  color: rgb(32, 32, 32);
 }
 .form__con-box {
   display: flex;
